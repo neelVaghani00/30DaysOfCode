@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catlog/widget/drawer.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -7,9 +8,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
-      drawer: Drawer(
-        child: Text("Hello I M Drawer"),
-      ),
+      drawer: MyDrawer(),
     );
   }
 }
