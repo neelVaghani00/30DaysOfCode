@@ -32,7 +32,7 @@ class _CartTotal extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          "\$${_cart.totalPrice}"
+          "\$${_cart.totalPrice }"
               .text
               .xl5
               .color(context.theme.accentColor)
