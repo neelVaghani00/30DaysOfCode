@@ -1,5 +1,3 @@
-import 'cart.dart';
-
 class CatalogModel {
   static final catModel = CatalogModel._internal();
 
